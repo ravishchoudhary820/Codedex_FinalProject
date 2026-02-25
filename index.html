@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Arush's Cafe!  </title>
+    <style>
+      #header-img {
+        width: 350px;
+      }
+
+      .section-img {
+        width: 200px;
+      }
+
+      .headings {
+        font-family: Georgia;
+        color: white;
+      }
+
+      p {
+        font-family: Georgia;
+        font-size: 16px;
+        color: white;
+      }
+
+      .links {
+        font-size: 16px;
+        font-family: Georgia;
+        color: white;
+      }
+
+      body {
+        background-color: green;
+      }
+
+      hr {
+        background-color: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="headings">Arush's Cafe</h1>
+      <br>
+      <hr>
+      <br>
+      <img id="header-img" src="https://images.pexels.com/photos/4547567/pexels-photo-4547567.jpeg?_gl=1*1g85po7*_ga*MTEyODk3MjI4Ny4xNzcxNzUyMDA0*_ga_8JE65Q40S6*czE3NzE3NTIwMDMkbzEkZzEkdDE3NzE3NTIwMTckajQ2JGwwJGgw" alt="header-img"/>
+      <br><br>
+      <nav>
+        <a href="#menu-section" class="links">Menu</a><br>
+        <a href="#order-section" class="links">Order</a>
+      </nav>
+    </header>
+    <br>
+    <hr>
+    <br>
+    <main>
+      <section>
+        <h2 class="headings" id="menu-section">Menu</h2>
+        <br>
+        <hr>
+        <br>
+        <article>
+          <img class="section-img" src="https://images.unsplash.com/photo-1593443320739-77f74939d0da?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="delicious-latte"/>
+          <h3 class="headings">Latte</h3>
+          <p><i>$5</i> This Latte was made by our machine and will make you float. It's just a bit too good!!</p>
+        </article>
+        <br>
+        <hr>
+        <br>
+        <article>
+          <img class="section-img" src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?_gl=1*jjtelk*_ga*MTEyODk3MjI4Ny4xNzcxNzUyMDA0*_ga_8JE65Q40S6*czE3NzE3NTQzODIkbzIkZzEkdDE3NzE3NTQzODYkajU2JGwwJGgw" alt="cappuccino-pic" />
+          <h3 class="headings">Cappuccino</h3>
+          <p><i>$6</i> OG Cappuccino made by machine god, OG Coffee brewski!</p>
+        </article>
+        <br>
+        <hr>
+        <br>
+        <article>
+          <img class="section-img" src="https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/5c28715374344163acc733217cbbfdd2.jpeg?resize=1000:*&output-format=auto&output-quality=auto" alt="rusk" />
+          <h3 class="headings">Rusk Cake</h3>
+          <p><i>$3</i> A crunchy handler best with cappuccino</p>
+        </article>
+      </section>
+      <br>
+      <hr>
+      <br>
+      <section>
+        <h2 class="headings" id="order-section">Place Your Order</h2>
+        <hr>
+        <form>
+          <label>How much of Cappuccino, Latte or Rusk Cake do you want (respective to the order)? <input min="0" type="number" required/><input min="0" type="number" required/><input min="0" type="number" required/></label>
+          <br><br>
+          <label>Sides or Add-on</label>
+          <br>
+          <input type="radio" name="option">Croissant
+          <input type="radio" name="option">Doughnut
+          <br><br>
+          <textarea maxlength="350" rows="4" cols="40" placeholder="Enter Your Special Requests/ways of delivery here!"></textarea>
+          <br><br>
+          <input type="submit" value="Go to checkout">
+        </form>
+      </section>
+    </main>
+    <br>
+    <hr>
+    <br>
+    <footer>
+      <p> Made with love from Arush Choudhary! 😊</p>
+      <p>Contact no. 1234567890</p>
+    </footer>
+  </body>
+</html>
